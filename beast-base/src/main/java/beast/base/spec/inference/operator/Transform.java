@@ -473,7 +473,7 @@ public interface Transform {
 			if (this.parameter == null) {
 				this.parameter = new ArrayList<>();
 			}
-			if (parameter != null) {
+			if (parameters != null) {
 				this.parameter.addAll(parameters);
 			}
 		}
